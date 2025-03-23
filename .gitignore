@@ -8,6 +8,7 @@
 __pycache__/
 local_settings.py
 db.sqlite3
+.DS_Store
 db.sqlite3-journal
 media
 
@@ -25,6 +26,7 @@ media
 
 # Distribution / packaging
 .Python
+venv/
 build/
 develop-eggs/
 dist/
@@ -498,3 +500,5 @@ fabric.properties
 !/gradle/wrapper/gradle-wrapper.jar
 
 # End of https://www.toptal.com/developers/gitignore/api/flutter,windows,django,python,androidstudio,git
+
+.vscode/
